@@ -68,9 +68,9 @@
         {
             // Works in IE6
             var div = document.createElement('div');
-            div.innerHTML = '&shy;<style> rule </style>;
+            div.innerHTML = '&shy;<style>' +rule+ '</style>';
             document.body.appendChild(div.childNodes[1]); 
-        
+        }
     </pre>
 
     <a href="https://stackoverflow.com/questions/30200569/css-rules-order"
